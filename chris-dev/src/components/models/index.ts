@@ -7,12 +7,9 @@ export type marketProps = {
 }; 
 
 export type DataProps = {
-  currency: string;
-  abv: string;
+
   text: string;
   icon?: React.ReactNode;
-
-  btnTxt?: string;
 };
 
 export type MenuProps = {

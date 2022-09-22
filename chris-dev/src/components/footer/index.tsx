@@ -115,7 +115,7 @@ export const Footer = () => {
         whileInView="animate"
       >
         <motion.span className="footer__bottom--left" variants={fadeInRight}>
-          ©2021 CRAPPO. All rights reserved
+          ©2021 CR All rights reserved
         </motion.span>
         <motion.div
           className="footer__bottom--right"
