@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { FooterProps } from "../models";
+=======
+import { FooterProps } from "../../models";
+>>>>>>> cb6d3bcd586634e05aee89961923c65e616cd508
 
 export const links: FooterProps = {
   firstLinks: [
