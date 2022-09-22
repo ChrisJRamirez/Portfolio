@@ -16,7 +16,8 @@ export const HeaderContainer = styled(motion.header)`
   left: 0;
   right: 0;
   z-index: 5;
-  background-color: ${(props) => props.theme.colors.mainbg};
+  background-color: lightgreen;
+  /* background-color: ${(props) => props.theme.colors.mainbg}; */
   .logo {
     width: 13.5rem;
     height: 4rem;
@@ -98,7 +99,8 @@ export const NavBar = styled(motion.nav)<NavOpen>`
   .nav__list--item {
     font-size: ${(props) => props.theme.fontSize.sm};
     font-weight: ${(props) => props.theme.fontWeights.normal};
-    color: ${(props) => props.theme.colors.maintxt};
+    color: black;
+    /* color: ${(props) => props.theme.colors.maintxt}; */
     cursor: pointer;
     transition: 0.3s;
     &:hover {

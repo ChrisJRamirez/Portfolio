@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-import Logo from "/Users/chrisjramirez/portfolio/Portfolio/chris-dev/src/assets/svgs/Logo.svg"
+import Logo from "../../assets/svgs/Logo.svg";
+import Mountain from "../../assets/svgs/Mountain.svg"
 // logo isnt working, figure out svg 
 import {
   fadeInDown,
@@ -26,7 +27,7 @@ export const Header = () => {
         animate="animate"
       >
         <motion.div className="logo" variants={fadeInLeft}>
-          <img src={Logo} alt="logo" className="logo__image" /> 
+          <img src={Mountain} alt="logo" className="logo__image" /> 
         </motion.div>
         <NavBar
           openNav={openNav}
