@@ -1,8 +1,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-import Logo from "../../assets/svgs/Logo.svg";
-import Mountain from "../../assets/svgs/Mountain.svg"
-// logo isnt working, figure out svg 
+import Mountain from "../../assets/svgs/Mountain.svg";
 import {
   fadeInDown,
   fadeInLeft,
